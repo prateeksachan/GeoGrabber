@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    font-family: sans-serif;
+    min-height: 740px;
+    background: rgb(215, 215, 215);
+    background: url("../resources/tile.gif") repeat scroll -70% 0 #F0F0F0;
+	}
+#start{
+	width:100px;
+}
+.circle{
+	width:100px !important;
+}
+.step{ 
+	clear:both;
+	
+}
+.step {
+    width: 959px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;	
+}
+
+.step {
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+.step h1{
+	float:left;
+	margin-top:10px;	
+}
+.step img{
+}
+.hint_text{
+	font-size:30px;
+	background-color:#EEE;
+	padding:15px;
+	}
+	
+.fallback-message {
+	font-family: sans-serif;
+	line-height: 1.3;
+	
+	width: 780px;
+	padding: 10px 10px 0;
+	margin: 20px auto;
+	
+	border: 1px solid #E4C652;
+	border-radius: 10px;
+	background: #EEDC94;
+}
+	
+.fallback-message p {
+	margin-bottom: 10px;
+	}
+	
+.impress-supported .fallback-message {
+	display: none;
+	}
+.circleBase {
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    behavior: url(PIE.htc);
+	background-color: #996;
+    border-radius: 999px; /* one half of ( (border * 2) + height + padding ) */
+    color: #000;
+    font: bold 20px/20px Helvetica, Verdana, Tahoma;
+	height: 140px;
+    min-width: 260px;
+    padding: 120px 0 0;
+	text-align: center;
+	line-height:20px;
+	border:2px #999 solid;
+}
+.circleNode {
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    behavior: url(PIE.htc);
+    background-color: #000;
+    border-radius: 999px; /* one half of ( (border * 2) + height + padding ) */
+    border:2px #666 solid;
+	color: #fff;
+	font: bold 14px/14px Helvetica, Verdana, Tahoma;
+    height: 55px; 
+    min-width: 105px;
+    padding: 48px 0 0 0 ;
+    text-align: center;
+	line-height:10px;
+}
+.circleid1 {
+	height:142px;
+	width:142px;
+	background:url(../resources/words.png) no-repeat;
+}
+.circleid2 {
+	height:142px;
+	width:142px;
+	background:url(../resources/at.png) no-repeat;
+}
+.circleid3 {
+	height:142px;
+	width:142px;
+	background:url(../resources/link.png) no-repeat;
+}
+.circleid4 {
+	height:142px;
+	width:142px;
+	background:url(../resources/tag.png) no-repeat;
+}
+.clearfix{
+}
+#id1, #id2, #id3, #id4, #id5{
+	width:900px;
+	height:190px;
+}
+.lfloat{
+	float:left;
+}
+.rfloat{
+	float:right;
+}
+.words{
+	position:absolute;
+	bottom:30px;
+	right:0;
+	text-align:left !important;
+}
+.words .topsearch{
+	font-size:20px;
+	color:#333;
+}
+.step h1{
+	font:sans-serif;
+	font-size:24px;
+	color:#666;
+	padding:0 0 0 10px;
+}
+.words ul,li{
+	list-style:none;
+}
+.words ul{
+	font-size:16px;
+}
+.words ul li{
+	font-size:16px;
+}
+.words ul li a{
+	text-decoration:none;
+	color:#366;
+	display:block;
+}
+.words ul li a:hover{
+	color:#396;
+	text-decoration:underline;
+	cursor:pointer;
+	border-bottom-style:dotted medium #396
+}
+.clr {
+	margin:10px;
+	background: rgb(120, 120, 120);
+	background: rgba(255, 255, 255, 0.90);
+	height: 2px;
+	width: 85%;
+	-moz-box-shadow: 1px 1px 2px 0px #EEE;
+	-webkit-box-shadow: 1px 1px 2px 0px #EEE;
+	box-shadow: 1px 1px 2px 0px #EEE;
+}
+a{
+	text-decoration:none;
+}
+.step a:hover{
+	border-bottom: #096 !important;
+	border-bottom-style: dotted;
+	border-bottom:medium;
+}
+/* fade out inactive slides */
+.backmain{
+	width:44px;
+	height:44px;
+	position:absolute;
+	top:60px;
+	left:210px;
+}
+#id5:not(.active) {
+    opacity: 0.1;
+	filter:alpha(opacity=10); /* For IE8 and earlier */
+}
+
+#id4:not(.active) {
+    opacity: 0.1;
+	filter:alpha(opacity=10); /* For IE8 and earlier */
+}
+
+#id3:not(.active) {
+    opacity: 0.1;
+	filter:alpha(opacity=10); /* For IE8 and earlier */
+}
+
+#id2:not(.active) {
+    opacity: 0.1;
+	filter:alpha(opacity=10); /* For IE8 and earlier */
+}
+
+#id1:not(.active) {
+    opacity: 0.1;
+	filter:alpha(opacity=10); /* For IE8 and earlier */
+}
+#searchbox{
+    width:98.0%;
+	margin:10px;
+}
+.search{
+	font-size: 20px;
+    padding: 0 0 0px 10px;
+    text-align: left;
+	color:#CCC;
+}
