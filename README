@@ -6,9 +6,17 @@ Prateek Sachan
 Sehaj Singh Kalra
 Mohd. Waseem
 
-as a part of Yahoo Hack U! at Indian Institute of TEchnoly Delhi.
+as a part of Yahoo Hack U! at Indian Institute of Technology Delhi.
 
 Usage of GeoGrabber
 ===================
 The App is used to fetch results in the form of Flickr photos and Twitter tweets depending upon the location entered in a elegant Masonry UI. As Twitter and Flickr uses Geotagging, hence we thought of implementing it.
+
+Acknowledgements
+================
+We would like to thank the below Open-Source javascripts for the development of our project:
+
+impress.js
+masonry.js
+
 
